@@ -3,6 +3,6 @@ data "aws_ami" "joindevops_ami" {
     owners = ["973714476881"]
     filter {
         name = "name"
-        value = ["RHEL-9-DevOps-Practice"]
+        values = ["RHEL-9-DevOps-Practice"]
     }
 }
